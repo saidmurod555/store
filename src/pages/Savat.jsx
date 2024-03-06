@@ -69,7 +69,7 @@ const Savat = () => {
   <div className='block mt-4 font-semibold text-center text-gray-800'>
     Total Price: ${totalPrice}
   </div>
-  <NavLink to="/" onClick={clearLocalStorage} className="block w-full max-w-[200px] mx-auto px-4 py-2 mt-6 text-center text-white bg-amber-300 rounded-md shadow hover:bg-amber-400 transition duration-300">
+  <NavLink to="/Login" onClick={clearLocalStorage} className="block w-full max-w-[200px] mx-auto px-4 py-2 mt-6 text-center text-white bg-amber-300 rounded-md shadow hover:bg-amber-400 transition duration-300">
     Shop
   </NavLink>
 </div>

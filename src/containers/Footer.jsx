@@ -9,8 +9,8 @@ const Footer = () => {
   return (
    <div className="bg-[#f5f5f5] py-10 md:py-20">
   <div className="container mx-auto">
-    <div className="grid items-center grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-4 md:gap-20">
-      <div className="flex items-center justify-center gap-5 md:justify-start">
+    <div className="grid items-center grid-cols-1 gap-10 md:grid-cols- lg:grid-cols-4 md:gap-20">
+      <div className="flex items-center justify-center gap-3 md:justify-start">
         <img src={Logo} alt="Logo" className="w-16 md:w-auto" />
         <ul className="gap-10 md:flex">
           <li><NavLink to="/About">About Us</NavLink></li>
